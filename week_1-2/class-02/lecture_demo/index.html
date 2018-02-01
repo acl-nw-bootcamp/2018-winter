@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Images & Links</title>
+    <script type="text/javascript">
+      var userName = prompt("Please tell me your name:");
+      console.log("User Name: "+userName);
+      var likesSite = confirm("Welcome, "+userName+"\n\nDo you like my site?");
+      console.log("Likes Site: "+likesSite);
+      if (likesSite) {
+        alert("Great! Glad you're here.");
+      } else {
+        alert("Darn! Mind if I spam you to find out why?");
+      }
+    </script>
+  </head>
+  <body>
+    <h1>Using Attributes</h1>
+    <p>Welcome to <a href="http://www.alchemycodelab.com">Alchemy Code Lab</a>!</p>
+    <a href="http://www.alchemycodelab.com" target="_blank"><img src="images/acl-logo.png" height="100"></a>
+    <h3>Upcoming Courses</h3>
+    <ol>
+      <li>Bootcamp: Part One</li>
+      <li>Bootcamp: Part Two</li>
+      <li>Career Track
+        <ul>
+          <li>full-stack</li>
+          <li>devsign</li>
+          <li>python</li>
+        </ul>
+      </li>
+    </ol>
+  </body>
+</html>
