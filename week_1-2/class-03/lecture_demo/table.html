@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 <html>
+  <script type="text/javascript">
+    var addStudent = confirm("Would you like to add a new student?");
+    var name, phone, email;
+    var studentCount = 2;
+    if (addStudent) {
+      name = prompt("Student Name:");
+      phone = prompt("Phone:");
+      email = prompt("E-Mail");
+      studentCount +=1;
+    }
+  </script>
   <body>
     <h1>Table Example</h1>
     <table align="center" width="50%" border="1">
@@ -7,22 +18,33 @@
         <th width="100">Student</th>
         <th width="150">Phone</th>
         <th>E-Mail</th>
-        <th>Course</th>
       </tr>
       <tr height="30">
         <td>John Doe</td>
         <td>503-555-1234</td>
         <td>john.doe@gmail.com</td>
-        <td rowspan="2" align="center">X</td>
       </tr>
       <tr height="30">
         <td>Jane Citizen</td>
         <td>503-555-9876</td>
         <td>jane.citizen@alchemycodelab.com</td>
       </tr>
+      <script type="text/javascript">
+        if(addStudent) {
+          document.write("<tr height='30'>");
+          document.write("<td>"+name+"</td>");
+          document.write("<td>"+phone+"</td>");
+          document.write("<td>"+email+"</td>");
+          document.write("</tr>");
+        }
+      </script>
       <tr height="30">
         <th colspan="2" align="right">Total Students:</th>
-        <th align="left" colspan="2">2</th>
+        <th align="left">
+          <script type="text/javascript">
+            document.write(studentCount);
+          </script>
+        </th>
       </tr>
     </table>
   </body>
