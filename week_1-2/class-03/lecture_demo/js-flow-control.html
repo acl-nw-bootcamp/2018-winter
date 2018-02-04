@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="text/javascript">
+    var userName = "";
+      while (userName == null || userName.trim() == "") {
+        userName = prompt("Please enter your name:");
+      }
+      var today = new Date();
+      if (today.getHours() < 12) {
+        alert("Good Morning, "+userName+"!");
+      } else {
+        alert("Good Afternoon, "+userName+"!");
+      }
+    </script>
+  </head>
+  <body>
+    <h1>JavaScript Flow Control Example(s)</h1>
+    <script type="text/javascript">
+    for(var counter = 1; counter < 5; counter++) {
+      document.write("Counter = " + counter + "<br>");
+    }
+    </script>
+  </body>
+</html>
