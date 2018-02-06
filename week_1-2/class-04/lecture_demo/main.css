@@ -1,0 +1,20 @@
+h1 {
+  color: blue;
+  font-family: "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+p {
+  font-family: Optima, Helvetica, Arial, sans-serif;
+}
+
+.highlight {
+  background-color: yellow;
+}
+
+a {
+  text-decoration: none;
+  background-color: #a8FFb3;
+  color: rgb(30%, 0%, 30%);
+  font-weight: bold;
+}
