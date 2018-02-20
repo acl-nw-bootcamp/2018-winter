@@ -32,6 +32,7 @@
 
 4. New repo using `git init`
 5. Document Object Model & DOM Methods
+6. DOM Rendering (lists)
 
 ## Week 4 - Daily Plans
 ### Class 08
@@ -40,7 +41,7 @@
 +++BREAK+++
 
 2. Text Formatting (CSS)
-3. DOM Rendering (lists)
+3. DOM Rendering (table)
 
 +++BREAK+++
 
@@ -53,7 +54,6 @@
 
 2. CSS Positioning
 3. CSS Selectors - Specificity
-4. DOM Rendering (table)
 
 +++BREAK+++
 
