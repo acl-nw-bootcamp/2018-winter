@@ -1,0 +1,38 @@
+#sample-logo {
+  width: 100px;
+}
+
+nav, header, section {
+  border: 1px solid blue;
+}
+
+nav, section {
+  display: inline-block;
+  vertical-align: top;
+}
+
+nav {
+  width: 150px;
+}
+
+section {
+  width: calc(100% - 150px - 0.5em);
+}
+
+.highlight {
+  background-color: yellow;
+  font-family: Courier;
+}
+
+p {
+  font-family: Optima;
+  font-size: 20px;
+}
+
+p .highlight {
+  font-family: "Times New Roman";
+}
+
+#main-menu {
+  font-family: Helvetica;
+}

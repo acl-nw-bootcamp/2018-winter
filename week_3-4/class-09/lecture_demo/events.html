@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="events.css">
+    <script type="text/javascript" src="events.js"></script>
+  </head>
+  <body>
+    <h1>JS Events Example</h1>
+    <img src="images/Logo.png" onMouseOver="this.src='images/Logo-over.png'" onmouseout="this.src='images/Logo.png'">
+    <br>
+    <form onsubmit="return validateForm(this)">
+      <label>First Name: <input type="text" name="first" onblur="isValidEntry(this)"></label>
+      <label>Last Name: <input type="text" name="last" onblur="isValidEntry(this)"></label>
+      <label>Phone: <input type="text" name="phone" onblur="isValidEntry(this)"></label>
+      <label>E-Mail: <input type="text" name="email" onblur="isValidEntry(this)"></label>
+      <input type="submit" value="Add Student">
+    </form>
+  </body>
+</html>

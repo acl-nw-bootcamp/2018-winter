@@ -1,0 +1,21 @@
+form {
+  width: 200px;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  padding: 5px 0;
+  position: relative;
+  width: 100%;
+}
+
+label input {
+  width: 100px;
+  position: absolute;
+  right: 0;
+}
+
+.required {
+  background-color: red;
+}
