@@ -54,3 +54,4 @@ In this assignment, on page load, you will be displaying three random images to 
 ## Helpful Resources
 [Problem Domain](../assets/README.md)
 [Raw Image Assets](../assets/images)
+
