@@ -1,0 +1,9 @@
+img {
+  height: 300px;
+  margin: 0 10px;
+}
+
+#carousel {
+  display: flex;
+  justify-content: center;
+}
