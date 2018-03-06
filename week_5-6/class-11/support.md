@@ -26,5 +26,5 @@ Your pair will extend and refine each other's games today. The person whose game
 5. Once the Pull Request has been created, you will accept the pull request by merging/closing it. After that, in the terminal on your laptop, while in the game directory, enter the command `git pull origin master` to retrieve the modified code from GitHub.
 6. Next create a new branch from Master for today's work.
     git checkout master   (To move to Master Branch)
-    git checkout -b class-04
+    git checkout -b class-11
     Extend and Refine
