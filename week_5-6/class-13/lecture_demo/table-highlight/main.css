@@ -1,0 +1,40 @@
+body {
+  font-family: Optima;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+tr {
+  background-color: white;
+  transition: background-color 0.25s;
+}
+
+tr:first-child {
+  border-top-left-radius: 3px;
+}
+
+td, th {
+  padding: 4px 8px;
+  border-bottom: 1px solid blue;
+}
+
+tr:nth-child(even) {
+  background-color: #EEEEFF;
+}
+
+tr:hover {
+  background-color: #ddFFdd;
+}
+
+tr:first-child {
+  background-color: blue;
+  color: white;
+}

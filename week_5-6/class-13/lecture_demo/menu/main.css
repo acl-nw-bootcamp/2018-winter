@@ -1,0 +1,103 @@
+/* header, section, footer, nav, aside { border: 1px solid black; } */
+body {
+  font-family: Optima, Helvetica, Arial, sans-serif;
+}
+nav, section, aside {
+  display: inline-block;
+  vertical-align: top;
+}
+
+nav, aside {
+  width: 200px;
+}
+
+body > header {
+  text-align: center;
+}
+
+aside div {
+  height: 100px;
+  border: 1px solid black;
+  margin: 10px 0;
+}
+
+#related-info {
+  background-color: #5555FF;
+  margin-top: 0;
+}
+
+#associated-materials {
+  background-color: #55FF55;
+}
+
+section {
+  width: calc(100% - 400px - 1em);
+}
+
+section > header > h2:first-child {
+  margin-top: 0;
+}
+
+nav {
+  font-size: 20px;
+}
+
+nav > h3 {
+  margin: 0;
+  padding-bottom: 1em;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  left: -200px;
+  transition: left 0.5s;
+}
+
+nav > h3:hover + ul, nav ul:hover {
+  left: 0;
+}
+
+nav li {
+  padding: 6px 3px;
+  background-color: transparent;
+  transition: all 0.25s;
+}
+
+nav li:hover {
+  background-color: #ffdddd;
+}
+
+.submenu {
+  /* display: none; */
+  max-height: 0;
+  padding-left: 9px;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.25s, opacity 0.25s step-end;
+}
+
+li:hover .submenu {
+  /* display: block; */
+  max-height: 350px;
+  opacity: 1;
+  transition: max-height 0.35s ease-in, opacity 0.25s 0.35s;
+}
+
+footer {
+  font-style: italic;
+}
+
+header h1 {
+  position: relative;
+  top: -2em;
+  animation: pageLoadShow 2s;
+}
+
+@keyframes pageLoadShow {
+  0% {top: -2em;}
+  50% {top: 0;}
+  100% {top: -2em;}
+}
